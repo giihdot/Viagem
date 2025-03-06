@@ -1,7 +1,7 @@
 import "./Header.css"
 import Logo from '../assets/Logo - Viagem.png'
 
-function Header(props) {
+function Header() {
   return (
     <>
     <header>
