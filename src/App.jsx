@@ -8,6 +8,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Maldivas" element={<Maldivas />} />
+        <Route path="/Portugual" element={<Portugual />} />
+
       </Routes>
     </Router>
   );
