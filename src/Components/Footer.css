@@ -1,0 +1,22 @@
+p {
+    color: #010632;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1em;
+    padding: 3px;
+  }
+  
+  .junt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2%;
+  }
+  
+  .Img_2 {
+    width: 5vw;
+    height: 9vh;
+  }
+  
