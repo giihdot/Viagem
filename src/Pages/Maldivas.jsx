@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Maldivas.css";
+import Malvi from "../assets/Malvidas.jpeg"
 import Nav from "../Components/Navbar";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
@@ -16,7 +17,7 @@ function Maldivas() {
     descricao:
       "Desfrute de uma estadia luxuosa com tudo incluso! Aproveite praias paradisíacas, gastronomia requintada e serviços exclusivos neste incrível resort nas Maldivas.",
     valor: "R$ 15.700",
-    imagem: "maldivas1.jpg",
+    imagem: Malvi
   };
 
   return (
@@ -31,7 +32,6 @@ function Maldivas() {
             <h2>{destino.nome}</h2>
             <p>{destino.descricao}</p>
           </div>
-<<<<<<< HEAD
         </div>
 
         <p className="valor">{destino.valor}</p>
@@ -48,11 +48,8 @@ function Maldivas() {
             </span>
           ))}
           <p>{nota === 0 ? "" : `Você nos avaliou com ${nota} estrela(s)`}</p>
-        </div>
-=======
-        ))}
+        </div>    
         <Footer />
->>>>>>> f40eb8acc5190b03362b6530a41c0c90cb85a81a
       </div>
     </div>
   );
