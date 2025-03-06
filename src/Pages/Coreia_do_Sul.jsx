@@ -18,7 +18,7 @@ function Coreia() {
 const destino = [
   {
     nome: "Banyan Tree Club & Spa Seoul",
-    descricao: "Ideal para quem quer luxo e tranquilidade",
+    descricao: "O Banyan Tree Club & Spa Seoul é um dos hotéis mais exclusivos da Coreia do Sul, oferecendo uma combinação perfeita de luxo, bem-estar e privacidade. Situado no sopé do Monte Namsan, no centro de Seul, o resort proporciona uma fuga serena da agitação da cidade, ao mesmo tempo em que mantém fácil acesso aos principais pontos turísticos da capital.",
     valor: "R$ 32.000",
     imagem: Coreias,
   },

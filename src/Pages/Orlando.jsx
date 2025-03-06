@@ -3,26 +3,24 @@ import "./Style_Todos.css";
 import Nav from "../Components/Navbar";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
-import Orland from "../assets/Orlando.jpeg"
+import Orland from "../assets/Orlando.jpeg";
 
 function Orlando() {
+  const [nota, setNota] = useState(0);
 
-    const [nota, setNota] = useState(0);
+  const selecionarNota = (notaSelecionada) => {
+    setNota(notaSelecionada);
+  };
 
-    const selecionarNota = (notaSelecionada) => {
-      setNota(notaSelecionada);
-    };
-  
-
-const destino = [
-  {
-    nome: "Disney's Grand Floridian Resort & Spa",
-    descricao: "Elegância vitoriana e vista para o Castelo da Cinderela",
-    valor: "R$ 20.699",
-    imagem: Orland,
-  },
-];
-
+  const destino = [
+    {
+      nome: "Disney's Grand Floridian Resort & Spa",
+      descricao:
+        "O Disney’s Grand Floridian Resort & Spa é o hotel mais luxuoso do Walt Disney World Resort, oferecendo uma combinação perfeita entre elegância vitoriana, conforto cinco estrelas e a magia Disney. Situado às margens da Seven Seas Lagoon, este resort icônico proporciona vistas deslumbrantes do Magic Kingdom, além de oferecer experiências exclusivas que fazem os hóspedes se sentirem parte de um conto de fadas.",
+      valor: "R$ 20.699",
+      imagem: Orland,
+    },
+  ];
 
   return (
     <div className="container">
@@ -32,8 +30,12 @@ const destino = [
       <div>
         {destino.map((destino, index) => (
           <div key={index} className="card">
-          <img src={destino.imagem} alt={destino.nome} className="destino-img" />
-          <h2>{destino.nome}</h2>
+            <img
+              src={destino.imagem}
+              alt={destino.nome}
+              className="destino-img"
+            />
+            <h2>{destino.nome}</h2>
             <p>{destino.descricao}</p>
             <p className="valor">{destino.valor}</p>
 
@@ -51,9 +53,9 @@ const destino = [
             </div>
           </div>
         ))}
-          </div>
-        <Footer />
       </div>
+      <Footer />
+    </div>
   );
 }
 
