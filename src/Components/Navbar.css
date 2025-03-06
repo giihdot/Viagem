@@ -5,6 +5,7 @@
     align-items: center;
     color:white;
     background-color: #483D8B;
+    
     padding: 15px;
     border-radius: 12px;
     box-shadow: 0 0 25px #473d8bcd, 0 0 45px #FF6347;
@@ -15,7 +16,7 @@
     padding: 10px 10px;
     text-align: center;
     display: inline-block;
-    width: 5vw;
+    width: 18vw;
     height: 2vh;
     color:white;
   }

@@ -1,11 +1,11 @@
 import "./Header.css"
 import Logo from '../assets/Logo - Viagem.png'
 
-function Header() {
+function Header(props) {
   return (
     <>
     <header>
-    {/* <h1> MADAMES VOYAGE {props.Integrante} </h1>  */}
+    <h2> {props.titulo} </h2> 
     <img className="Img_1" src={Logo} alt="Viagem" />
     </header>
     </>

@@ -1,4 +1,4 @@
-/* h1 {
+h2 {
     background-color: white;
     color:#483D8B;
     text-shadow: 0 0 45px #01063279, 0 0 45px #01063279;
@@ -6,13 +6,12 @@
     font-size: 4em;
     text-align: center  ;
     text-shadow: 2px 2px #FF6347;
-  } */
+  }
   
   .Img_1 {
-    width: 20vw;
+    width: 15vw;
     position: absolute;
-    top: 2%;
-    right: 4%;
-    height: 18vh;   
-    border-radius: 10%;
+    top: 8%;
+    right: 6%;
+    height: 10vh;
   }

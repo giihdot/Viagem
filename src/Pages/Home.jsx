@@ -1,14 +1,17 @@
 import Header from "../Components/Header";
 import Nav from "../Components/Navbar";
 import Footer from "../Components/Footer";
-// import Carrosel from "../Components/Carrosel";
+import "../Components/Footer.css"
+import Carrosel from "../Components/Carrosel";
 
 function Home() {
   return (
     <>
-      <Header />
+    <section className="Flex-Colunm" >
+      <Header titulo="MADAMES VOYAGE"/>
       <Nav />
-      {/* <Carrosel /> */}
+      </section>
+      <Carrosel />
       <Footer />
     </>
   );

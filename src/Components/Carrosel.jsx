@@ -1,46 +1,44 @@
+import React, { useState, useEffect } from "react";
 import Img1 from "../assets/1.jpg";
 import Img2 from "../assets/2.jpg";
 import Img3 from "../assets/3.jpg";
 import Img4 from "../assets/4.jpg";
+import "./Carrosel.css";
 
 function Carrosel() {
-  let currentIndex = 0;
-  const slides = document.querySelector(".slides");
-  const slideArray = document.querySelectorAll(".slides img");
-  const totalSlides = slideArray.length;
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const slides = [Img1, Img2, Img3, Img4]; // Array de imagens
+  const totalSlides = slides.length;
 
-  document.querySelector(".prev").addEventListener("click", () => {
-    moveSlide(-1);
-  });
-
-  document.querySelector(".next").addEventListener("click", () => {
-    moveSlide(1);
-  });
-
-  function moveSlide(step) {
-    currentIndex += step;
-    if (currentIndex >= totalSlides) {
-      currentIndex = 0;
-    } else if (currentIndex < 0) {
-      currentIndex = totalSlides - 1;
+  // Função para mover os slides
+  const moveSlide = (step) => {
+    let newIndex = currentIndex + step;
+    if (newIndex >= totalSlides) {
+      newIndex = 0;
+    } else if (newIndex < 0) {
+      newIndex = totalSlides - 1;
     }
-    slides.style.transform = "translateX(" + -25 * currentIndex + "%)";
-  }
+    setCurrentIndex(newIndex);
+  };
 
-  setInterval(() => {
-    moveSlide(1);
-  }, 5000); // Muda a imagem a cada 3 segundos
+  // Atualiza o slide automaticamente a cada 5 segundos
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      moveSlide(1);
+    }, 5000);
+
+    return () => clearInterval(intervalId); // Limpa o intervalo ao desmontar o componente
+  }, [currentIndex]); // Dependência no currentIndex para reiniciar o intervalo
 
   return (
-    <section class="carousel">
-      <section class="slides">
-        <img src={Img1} alt="Imagem 1" />
-        <img src={Img2} alt="Imagem 2" />
-        <img src={Img3} alt="Imagem 3" />
-        <img src={Img4} alt="Imagem 4" />
+    <section className="carousel">
+      <section className="slides" style={{ transform: `translateX(-${100 * currentIndex}%)` }}>
+        {slides.map((slide, index) => (
+          <img key={index} src={slide} alt={`Imagem ${index + 1}`} />
+        ))}
       </section>
-      <button class="prev">&#10094;</button>
-      <button class="next">&#10095;</button>
+      <button className="prev" onClick={() => moveSlide(-1)}>&#10094;</button>
+      <button className="next" onClick={() => moveSlide(1)}>&#10095;</button>
     </section>
   );
 }
