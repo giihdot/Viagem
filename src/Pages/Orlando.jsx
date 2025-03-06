@@ -1,19 +1,27 @@
+import { useState } from "react";
 import "./Style_Todos.css";
 import Nav from "../Components/Navbar";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
-import Orland from "../assets/Orlando.jpeg"
-
-const destino = [
-  {
-    nome: "Disney's Grand Floridian Resort & Spa",
-    descricao: "Elegância vitoriana e vista para o Castelo da Cinderela",
-    valor: "R$ 20.699",
-    imagem: Orland,
-  },
-];
+import Orland from "../assets/Orlando.jpeg";
 
 function Orlando() {
+  const [nota, setNota] = useState(0);
+
+  const selecionarNota = (notaSelecionada) => {
+    setNota(notaSelecionada);
+  };
+
+  const destino = [
+    {
+      nome: "Disney's Grand Floridian Resort & Spa",
+      descricao:
+        "O Disney’s Grand Floridian Resort & Spa é o hotel mais luxuoso do Walt Disney World Resort, oferecendo uma combinação perfeita entre elegância vitoriana, conforto cinco estrelas e a magia Disney. Situado às margens da Seven Seas Lagoon, este resort icônico proporciona vistas deslumbrantes do Magic Kingdom, além de oferecer experiências exclusivas que fazem os hóspedes se sentirem parte de um conto de fadas.",
+      valor: "R$ 20.699",
+      imagem: Orland,
+    },
+  ];
+
   return (
     <div className="container">
       <Header />
@@ -22,14 +30,64 @@ function Orlando() {
       <div>
         {destino.map((destino, index) => (
           <div key={index} className="card">
-          <img src={destino.imagem} alt={destino.nome} className="destino-img" />
-          <h2>{destino.nome}</h2>
+            <img
+              src={destino.imagem}
+              alt={destino.nome}
+              className="destino-img"
+            />
+            <h2>{destino.nome}</h2>
             <p>{destino.descricao}</p>
             <p className="valor">{destino.valor}</p>
+
+            <div className="avaliacao">
+              <h2>Avalie nosso serviço ⭐</h2>
+              {[1, 2, 3, 4, 5].map((numero) => (
+                <span
+                  key={numero}
+                  onClick={() => selecionarNota(numero)}
+                  className={numero <= nota ? "star filled" : "star"}
+                >
+                  ★
+                </span>
+              ))}
+            </div>
           </div>
         ))}
-        <Footer />
       </div>
+
+      <br />
+      <br />
+
+      <div className="links-container">
+        <h2>Outros Destinos</h2>
+        <br/>
+        <ul>
+          <li>
+            <a href="/Portugual" className="link-destino">
+              Portugal
+            </a>
+          </li>
+          <li>
+            <a href="/Coreia" className="link-destino">
+            Coreia
+            </a>
+          </li>
+          <li>
+            <a href="/Maldivas" className="link-destino">
+              Maldivas
+            </a>
+          </li>
+          <li>
+            <a href="/Italia" className="link-destino">
+              Itália
+            </a>
+          </li>
+        </ul>
+      </div>
+      <br />
+      <br />
+      
+      <Footer />
     </div>
   );
 }
