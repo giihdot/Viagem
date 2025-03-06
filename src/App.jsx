@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './Pages/Home'
 import Maldivas from "./Pages/Maldivas";
+import Portugual from "./Pages/Portugual";
+
 
 function App() {
   return (
