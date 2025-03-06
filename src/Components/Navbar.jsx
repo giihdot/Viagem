@@ -1,10 +1,6 @@
-<<<<<<< HEAD
 import { Link } from "react-router-dom"
 import "./Navbar.css"
-=======
-import { Link } from "react-router-dom";
-import "./Nav.css";
->>>>>>> b9bd5651642d6a8af3e08c526b3871095e9dc0b3
+
 
 function Nav() {
   return (
