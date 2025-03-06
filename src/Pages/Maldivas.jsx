@@ -48,6 +48,38 @@ function Maldivas() {
             </span>
           ))}
         </div>    
+        <br />
+      <br />
+
+      <div className="links-container">
+        <h2>Outros Destinos</h2>
+        <br/>
+        <ul>
+          <li>
+            <a href="/Portugual" className="link-destino">
+              Portugal
+            </a>
+          </li>
+          <li>
+            <a href="/Orlando" className="link-destino">
+              Orlando
+            </a>
+          </li>
+          <li>
+            <a href="/Coreia" className="link-destino">
+              Coreia
+            </a>
+          </li>
+          <li>
+            <a href="/Italia" className="link-destino">
+              Itália
+            </a>
+          </li>
+        </ul>
+      </div>
+      <br />
+      <br />
+
         <Footer />
       </div>
     </div>

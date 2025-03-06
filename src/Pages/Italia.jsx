@@ -49,6 +49,39 @@ function Italia() {
           ))}
           <p>{nota === 0 ? "" : `Você nos avaliou com ${nota} estrela(s)`}</p>
         </div>    
+
+        <br />
+      <br />
+
+      <div className="links-container">
+        <h2>Outros Destinos</h2>
+        <br/>
+        <ul>
+          <li>
+            <a href="/Portugual" className="link-destino">
+              Portugal
+            </a>
+          </li>
+          <li>
+            <a href="/Orlando" className="link-destino">
+              Orlando
+            </a>
+          </li>
+          <li>
+            <a href="/Maldivas" className="link-destino">
+              Maldivas
+            </a>
+          </li>
+          <li>
+            <a href="/Coreia" className="link-destino">
+              Coreia
+            </a>
+          </li>
+        </ul>
+      </div>
+      <br />
+      <br />
+
         <Footer />
       </div>
     </div>
