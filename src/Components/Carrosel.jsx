@@ -30,7 +30,7 @@ function Carrosel() {
   setInterval(() => {
     moveSlide(1);
   }, 5000); // Muda a imagem a cada 3 segundos
-  
+
   return (
     <section class="carousel">
       <section class="slides">
@@ -45,4 +45,4 @@ function Carrosel() {
   );
 }
 
-export default Carrosel
+export default Carrosel;
