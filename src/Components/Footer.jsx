@@ -11,7 +11,7 @@ function Footer() {
       <p> Cel: +55 (19) 97864-2324 </p>
       <p> Email: madamesvoyage@passagens.com.br </p>
       </section>
-
+<hr/>
       <section className="Flex-Colunm">
       <p>
         <b>Sobre a Empresa:</b>

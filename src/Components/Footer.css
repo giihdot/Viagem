@@ -5,14 +5,21 @@ p {
     padding: 3px;
   }
   
-  .junt {
+  .Flex-Row {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: white;
+    background-color: #483D8b;
     align-items: center;
     justify-content: space-around;
-    margin-top: 2%;
+  }
+
+  .Flex-Colunm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    justify-content: space-around;
   }
   
   .Img_2 {
