@@ -1,5 +1,5 @@
 import "./Footer.css";
-import Logo from "../assets/Logo_Img.png";
+// import Logo from "../assets/Logo_Img.png";
 
 function Footer() {
   return (
@@ -40,7 +40,7 @@ function Footer() {
       <p>Passagem para Santa Catarina </p>
       <p>Passagem para Maceió </p>
       </section>
-      <img className="img_logo" scr={Logo} alt="Logo" />
+      {/* <img className="img_logo" scr={Logo} alt="Logo" /> */}
     </footer>
   );
 }
