@@ -1,4 +1,7 @@
 import "./Maldivas.css";
+import Nav from "../Components/Navbar";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 
 const destinos = [
   { nome: "Resort Luxuoso", descricao: "Bangalôs sobre o mar.", valor: "R$ 12.500"},
@@ -11,6 +14,8 @@ const destinos = [
 function Maldivas() {
   return (
     <div className="container">
+      <Header/>
+      <Nav/>
       <h1>Destinos nas Maldivas</h1>
       <div className="grid">
         {destinos.map((destino, index) => (
@@ -21,6 +26,7 @@ function Maldivas() {
             <p className="valor">{destino.valor}</p>
           </div>
         ))}
+        <Footer />
       </div>
     </div>
   );
