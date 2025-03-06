@@ -3,33 +3,33 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #010632cc;
-    width: 3vw;
-    height: 90vh;
-    padding: 10px;
+    color:white;
+    background-color: #483D8B;
+    padding: 15px;
     border-radius: 12px;
-    box-shadow: 0 0 25px #01063279, 0 0 45px #f668b6b4;
+    box-shadow: 0 0 25px #473d8bcd, 0 0 45px #FF6347;
   }
   
   a {
     text-decoration: none;
-    padding: 15px 15px;
+    padding: 10px 10px;
     text-align: center;
     display: inline-block;
-    width: 2vw;
+    width: 5vw;
     height: 2vh;
+    color:white;
   }
   
   a:hover {
-    background-color: #050a3dbb;
-    color: #01063279;
+    background-color: #FF6347;
+    color: #fdfcfc;
     border-radius: 5px;
   }
   
   a:visited {
-    color: #f668b6b4;
+    color: #fefeff;
   }
   
   a:focus a:active {
-    color: #01063279;
+    color: #010632e3;
   }
