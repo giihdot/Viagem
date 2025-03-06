@@ -44,3 +44,5 @@ function Carrosel() {
     </section>
   );
 }
+
+export default Carrosel
