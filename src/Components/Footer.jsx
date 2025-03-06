@@ -1,38 +1,48 @@
-import './Footer.css'
-import Logo from '../assets/Logo_Img.png'
+import "./Footer.css";
+import Logo from "../assets/Logo_Img.png";
 
 function Footer() {
-    return (
-        <footer className='Junt'>
-        <p> <b> Para maiores informações: </b> +55 (19) 97864-2324 </p> 
-        
-        <p> Sobre a Empresa
+  return (
+    <footer className="Flex-Row">
+        <section className="Flex-Colunm">
+      <p>
+        <b> Para maiores informações: </b>
+      </p>
+      <p> Cel: +55 (19) 97864-2324 </p>
+      <p> Email: madamesvoyage@passagens.com.br </p>
+      </section>
+<hr/>
+      <section className="Flex-Colunm">
+      <p>
+        <b>Sobre a Empresa:</b>
+      </p>
 
-            Atendimento ao Cliente
-            Blog das Madames Voyage
-            Canais Oficiais
-            Políticas de Privacidade
-            Termos de Uso
-            Black Friday
-            Excluir minha conta
-        </p>
+      <p>Atendimento ao Cliente</p>
+      <p>Blog das Madames Voyage</p>
+      <p> Canais Oficiais</p>
+      <p>Políticas de Privacidade</p>
+      <p>Termos de Uso</p>
+      <p>Black Friday</p>
+      <p>Excluir minha conta</p>
+      </section>
 
-        <p> Madames Voyage: Agência de Viagens Online
+      <section className="Flex-Colunm">
+      <p>
+        <b>Madames Voyage: Agência de Viagens Online</b>
+      </p>
 
-            Passagens Aéreas Promocionais
-            Passagens Aéreas Internacionais
-            Passagem para São Paulo
-            Passagem para Goiânia
-            Passagem para Recife
-            Passagem para Bahia
-            Passagem para Santa Catarina
-            Passagem para Maceió
-
-        </p>
-            <img className='img_logo' scr={Logo} alt="Logo" />
-
-        </footer>
-    )
+      <p>Passagens Aéreas Promocionais </p>
+      <p> Passagens Aéreas Internacionais</p>
+      <p>Passagem para São Paulo </p>
+      <p> Passagem para Goiânia </p>
+      <p>Passagem para Recife </p>
+      <p>Passagem para Bahia </p>
+      <p>Passagem para Santa Catarina </p>
+      <p>Passagem para Maceió </p>
+      </section>
+      <img className="img_logo" scr={Logo} alt="Logo" />
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;

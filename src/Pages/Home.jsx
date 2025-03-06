@@ -1,21 +1,17 @@
-import Header from '../Components/Header'
-import Nav from '../Components/Navbar'
-import Footer from '../Components/Footer'
+import Header from "../Components/Header";
+import Nav from "../Components/Navbar";
+import Footer from "../Components/Footer";
+import Carrosel from "../Components/Carrosel";
 
 function Home() {
-return (
+  return (
     <>
-    <section>
-        <Header />
-        <article>
-          <Nav />
-          <section> 
-</section>
-</article>
-<Footer />
-</section>
-</>
-);
+      <Header />
+      <Nav />
+      <Carrosel />
+      <Footer />
+    </>
+  );
 }
 
-export default Home
+export default Home;
