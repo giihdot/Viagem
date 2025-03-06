@@ -1,12 +1,12 @@
-h1 {
+/* h1 {
     background-color: white;
-    color:#01063279;
+    color:#483D8B;
     text-shadow: 0 0 45px #01063279, 0 0 45px #01063279;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 4em;
-    align-self:center;
+    text-align: center  ;
     text-shadow: 2px 2px #FF6347;
-  }
+  } */
   
   .Img_1 {
     width: 20vw;
