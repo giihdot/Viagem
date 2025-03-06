@@ -2,7 +2,7 @@ import "./Style_Todos.css";
 import Nav from "../Components/Navbar";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
-import Portug from "../assets/Portugual.jpeg"
+import Portug from "../assets/Portugal.jpeg"
 
 const destino = [
   {
@@ -13,12 +13,12 @@ const destino = [
   },
 ];
 
-function Portugual() {
+function Portugal() {
   return (
     <div className="container">
       <Header />
       <Nav />
-      <h1>Portugual - Hospedagem</h1>
+      <h1>Portugal - Hospedagem</h1>
       <div>
         {destino.map((destino, index) => (
           <div key={index} className="card">
@@ -34,4 +34,4 @@ function Portugual() {
   );
 }
 
-export default Portugual;
+export default Portugal;

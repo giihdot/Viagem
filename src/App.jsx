@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './Pages/Home'
 import Maldivas from "./Pages/Maldivas";
-import Portugual from "./Pages/Portugual";
+import Portugal from "./Pages/Portugal";
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Maldivas" element={<Maldivas />} />
-        <Route path="/Portugual" element={<Portugual />} />
+        <Route path="/Portugal" element={<Portugal />} />
 
       </Routes>
     </Router>
