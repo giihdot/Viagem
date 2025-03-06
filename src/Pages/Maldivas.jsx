@@ -1,5 +1,8 @@
 import { useState } from "react";
 import "./Maldivas.css";
+import Nav from "../Components/Navbar";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 
 function Maldivas() {
   const [nota, setNota] = useState(0);
@@ -18,6 +21,8 @@ function Maldivas() {
 
   return (
     <div className="container">
+      <Header/>
+      <Nav/>
       <h1>Destinos nas Maldivas</h1>
       <div className="card">
         <div className="content">
@@ -26,6 +31,7 @@ function Maldivas() {
             <h2>{destino.nome}</h2>
             <p>{destino.descricao}</p>
           </div>
+<<<<<<< HEAD
         </div>
 
         <p className="valor">{destino.valor}</p>
@@ -43,6 +49,10 @@ function Maldivas() {
           ))}
           <p>{nota === 0 ? "" : `Você nos avaliou com ${nota} estrela(s)`}</p>
         </div>
+=======
+        ))}
+        <Footer />
+>>>>>>> f40eb8acc5190b03362b6530a41c0c90cb85a81a
       </div>
     </div>
   );
