@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Maldivas.css";
+import "./Style_Todos.css";
 import Malvi from "../assets/Malvidas.jpeg"
 import Nav from "../Components/Navbar";
 import Header from "../Components/Header";
