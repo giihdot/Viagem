@@ -1,8 +1,19 @@
+import { useState } from "react";
 import "./Style_Todos.css";
 import Nav from "../Components/Navbar";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import Coreias from "../assets/Coreia.jpeg"
+
+
+function Coreia() {
+    
+    const [nota, setNota] = useState(0);
+
+    const selecionarNota = (notaSelecionada) => {
+      setNota(notaSelecionada);
+    };
+  
 
 const destino = [
   {
@@ -13,7 +24,6 @@ const destino = [
   },
 ];
 
-function Coreia() {
   return (
     <div className="container">
       <Header />
@@ -26,11 +36,25 @@ function Coreia() {
           <h2>{destino.nome}</h2>
             <p>{destino.descricao}</p>
             <p className="valor">{destino.valor}</p>
+
+            <div className="avaliacao">
+              <h2>Avalie nosso serviço ⭐</h2>
+              {[1, 2, 3, 4, 5].map((numero) => (
+                <span
+                  key={numero}
+                  onClick={() => selecionarNota(numero)}
+                  className={numero <= nota ? "star filled" : "star"}
+                >
+                  ★
+                </span>
+              ))}
+            </div>
           </div>
         ))}
+          </div>
+        
         <Footer />
       </div>
-    </div>
   );
 }
 

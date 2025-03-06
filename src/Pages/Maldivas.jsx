@@ -47,7 +47,6 @@ function Maldivas() {
               ★
             </span>
           ))}
-          <p>{nota === 0 ? "" : `Você nos avaliou com ${nota} estrela(s)`}</p>
         </div>    
         <Footer />
       </div>

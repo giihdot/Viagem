@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Style_Todos.css";
-import Itali from "../assets/Itali.jpeg"
+import Itali from "../assets/Italia.jpeg"
 import Nav from "../Components/Navbar";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
