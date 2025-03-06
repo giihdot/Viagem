@@ -2,7 +2,7 @@ import "./Style_Todos.css";
 import Nav from "../Components/Navbar";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
-import Portug from "../assets/Portugual.css"
+import Portug from "../assets/Portugual.jpeg"
 
 const destino = [
   {
