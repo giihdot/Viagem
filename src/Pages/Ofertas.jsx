@@ -146,7 +146,7 @@ const Ofertas = () => {
       </section>
 
     <div className="ofertas-container">
-      <h1 className="h1">Ofertas de Viagem</h1>      
+      <h1 className="h1">OFERTAS DE VIAGEM</h1>      
 
       <div className="ofertas-list">
         {ofertas.map((oferta) => (
