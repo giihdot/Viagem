@@ -95,9 +95,14 @@ const Footer = () => {
           aplicativo e televendas. Não há qualquer venda por redes sociais (Facebook, Instagram, Twitter, LinkedIn, TikTok, etc.).
           Pós-vendas - os canais oficiais de atendimento aos clientes são: por meio do telefone (19) 97864-2324 e Minhas Viagens. 
           <br/>
-          A Madames Voyage não realiza qualquer tipo de abordagem nas redes sociais ou sites de relacionamento, tampouco disponibiliza 
-          e-mails de contato com domínios distintos de @madamesvoyage.com.br. Endereços de e-mails com domínios: @hotmail.com @gmail.com @outlook.com 
-          ou qualquer outro neste sentido não tem qualquer relação com a Madames Voyage. Mais esclarecimentos em www.madamesvoyage.com.br
+          <br/>
+          A Madames Voyage é composta pelas integrantes:
+          Giovanna Ferreira,
+          Maria Clara Duarte,
+          Julia Piazzoli,
+          Kamilly Barra.
+          <br/>
+          As integrantes são alunas do técnico de Desenvolvimento de Sistemas do SENAI em Vinhedo-SP
           </p>
         </div>
       </div>
