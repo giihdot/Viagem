@@ -5,7 +5,7 @@ import Portugal from "./Pages/Portugal";
 import Orlando from "./Pages/Orlando";
 import Coreia from "./Pages/Coreia_do_Sul";
 import Italia from "./Pages/Italia";
-// import Passagem from "./Pages/Passagens";
+import Passagem from "./Pages/Passagens";
 import Hospedagens from "./Pages/Hospedagens";
 import './App.css';
 import Ofertas from './Pages/Ofertas';

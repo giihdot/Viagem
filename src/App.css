@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+  }
+
+  .h1 {
+    background-color: #FF6347;
+    color:#483D8B;
+    text-shadow: 0 0 45px #01063279, 0 0 45px #01063279;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 2.5em;
+    text-align: center ;
+    border-radius: 10px;
+  }
+
+  .h2 {
+    background-color: #483D8B;
+    color: white ;
+    font-size: 1.3rem;
+  }
+
+  .h3 {
+    font-size: 1.2rem;
+    color: #ffffff;
+  }
+  
+  .p {
+    color: white;
+  }
+  
+  .Img_1 {
+    width: 15vw;
+    position: absolute;
+    top: 7%;
+    right: 6%;
+    height: 10vh;
+  }
+
+  .ofertas-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  .oferta-card {
+    background-color: #483D8B;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px #dedcdcee;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    color: #ffffff;
+  }
+  
+  li {
+    margin: 5px 0;
+  }
+  
+  strong {
+    font-size: 1.4rem;
+    color: #FF6347;
+  }
+  
+  em {
+    font-style: italic;
+    color: #ee9b43;
+  }
+  
+  .img_Ofe {
+    width: 15vw;
+    height: 20vh;
+    border-radius: 10px;
+    margin-left: 3%;
+
+  }
+  

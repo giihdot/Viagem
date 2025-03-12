@@ -1,23 +1,3 @@
-// import React from 'react';
-
-// const Hospedagens = () => {
-//   return (
-//     <div>
-//       <h1>Hospedagens</h1>
-//       <ul>
-//         <li><Link to="/Maldivas">Página 1 - Detalhes</Link></li>
-//         <li><Link to="/Potugal">Página 2 - Preços</Link></li>
-//         <li><Link to="/Orlando">Página 3 - Serviços</Link></li>
-//         <li><Link to="/Italia">Página 4 - Avaliações</Link></li>
-//         <li><Link to="/Coreia">Página 5 - Localização</Link></li>
-//       </ul>
-//     </div>
-//   );
-// };
-
-// export default Hospedagens;
-
-
 import { useState } from "react";
 import "./Style_Todos.css";
 import Nav from "../Components/Navbar";
