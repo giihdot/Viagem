@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css'; 
-import Logo from '../assets/Logo - Viagem.png'
+import Logo from '../assets/Logo_Unificada.jpg'
 
 const Footer = () => {
   return (
@@ -68,7 +68,7 @@ const Footer = () => {
 
       {/* Imagem abaixo dos itens */}
       <div className="image-containe">
-        <img className="Img_2" src={Logo} alt="Viagem" />
+        <img className="Img_2" src={Logo} alt="Logo" />
       </div>
 
     <br/> 
