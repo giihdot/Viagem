@@ -20,7 +20,7 @@ function Coreia() {
   ];
 
   return (
-    <div className="container">
+    <div >
       <h1>COREIA DO SUL</h1>
       
         {destino.map((destino, index) => (

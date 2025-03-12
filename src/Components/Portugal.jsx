@@ -20,7 +20,7 @@ function Portugal() {
   ];
 
   return (
-    <div className="container">
+    <div >
       <h1>PORTUGAL</h1>
 
       {destinos.map((destino, index) => (

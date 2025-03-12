@@ -19,7 +19,7 @@ function Italia() {
   };
 
   return (
-    <div className="container">
+    <div >
       <h1>ITÁLIA</h1>
       <div className="card">
            <img src={Itali} />

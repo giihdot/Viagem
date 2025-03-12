@@ -18,7 +18,7 @@ function Maldivas() {
   };
 
   return (
-    <div className="container">
+    <div >
       <h1>MALDIVAS</h1>
       <div className="card">
         <img src={Malvi} />

@@ -20,7 +20,7 @@ function Orlando() {
   ];
 
   return (
-    <div className="container">
+    <div>
       <h1> ORLANDO </h1>
       <div>
         {destino.map((destino, index) => (
