@@ -30,12 +30,17 @@
     box-shadow: 15px 4px 8px rgba(0, 0, 0, 0.1);
   }
   
-  h4 {
-    color: #ff63474e;
-    font-size: 2.4em;
-  }
+  h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    background-color: #ff63478f;
+    color: #483D8B;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 5px;
+ }
   
-  p {
+  .parag {
     color: #000000;
     font-family: 'Times New Roman', Times, serif;
     font-size: 0.9em;
