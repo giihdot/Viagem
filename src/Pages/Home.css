@@ -1,0 +1,44 @@
+.Paragrafo {
+        display: flex;
+        flex-direction: row;
+        text-align: justify;
+        background-color: #473d8be7;
+        padding: 22px;
+        width: 77vw;
+        height: 34vh;
+        color: white;
+        margin-left: 10%;
+        border-radius: 10px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1.1em;
+}
+
+.container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px;
+  }
+  
+  .block {
+    width: 30%;  /* Cada bloco ocupará 30% da largura do contêiner */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+    box-shadow: 15px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h4 {
+    color: #ff63474e;
+    font-size: 2.4em;
+  }
+  
+  p {
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9em;
+    text-align: justify;
+  }
+  
