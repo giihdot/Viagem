@@ -5,15 +5,18 @@ import Portugal from "./Pages/Portugal";
 import Orlando from "./Pages/Orlando";
 import Coreia from "./Pages/Coreia_do_Sul";
 import Italia from "./Pages/Italia";
-import Passagem from "./Pages/Passagens";
+// import Passagem from "./Pages/Passagens";
+import Hospedagens from "./Pages/Hospedagens";
 
 
 function App() {
   return (
     <Router>
       <Routes>
+        
         <Route path="/" element={<Home />} />
-        <Route path="/Passagens" element={<Passagem />} />        
+        {/* <Route path="/Passagens" element={<Passagem />} /> */}
+        <Route path="/Hospedagens" element={<Hospedagens />} />
         <Route path="/Maldivas" element={<Maldivas />} />
         <Route path="/Portugal" element={<Portugal />} />
         <Route path="/Orlando" element={<Orlando />} />
