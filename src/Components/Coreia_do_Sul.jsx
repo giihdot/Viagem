@@ -1,8 +1,5 @@
 import { useState } from "react";
-import "./Style_Todos.css";
-import Nav from "../Components/Navbar";
-import Header from "../Components/Header";
-import Footer from "../Components/Footer";
+import "../Pages/Style_Todos.css";
 import Coreias from "../assets/Coreia.jpeg";
 
 function Coreia() {
@@ -17,30 +14,26 @@ function Coreia() {
       nome: "Banyan Tree Club & Spa Seoul",
       descricao:
         "O Banyan Tree Club & Spa Seoul é um dos hotéis mais exclusivos da Coreia do Sul, oferecendo uma combinação perfeita de luxo, bem-estar e privacidade. Situado no sopé do Monte Namsan, no centro de Seul, o resort proporciona uma fuga serena da agitação da cidade, ao mesmo tempo em que mantém fácil acesso aos principais pontos turísticos da capital.",
-      valor: "R$ 32.000",
+      valor: "R$32.000",
       imagem: Coreias,
     },
   ];
 
   return (
     <div className="container">
-      <Header />
-      <Nav />
-      <h1>Coreia do Sul - Hospedagem</h1>
-      <div>
+      <h1>COREIA DO SUL</h1>
+      
         {destino.map((destino, index) => (
           <div key={index} className="card">
             <img
-              src={destino.imagem}
-              alt={destino.nome}
-              className="destino-img"
+              src={Coreias}
             />
-            <h2>{destino.nome}</h2>
-            <p>{destino.descricao}</p>
+            <h3 className="titulo">{destino.nome}</h3>
+            <p className="descricao">{destino.descricao}</p>
             <p className="valor">{destino.valor}</p>
 
             <div className="avaliacao">
-              <h2>Avalie nosso serviço ⭐</h2>
+              <h5>Avalie nosso serviço ⭐</h5>
               {[1, 2, 3, 4, 5].map((numero) => (
                 <span
                   key={numero}
@@ -54,40 +47,7 @@ function Coreia() {
           </div>
         ))}
       </div>
-      <br />
-      <br />
-
-      <div className="links-container">
-        <h2>Outros Destinos</h2>
-        <br/>
-        <ul>
-          <li>
-            <a href="/Portugal" className="link-destino">
-              Portugal
-            </a>
-          </li>
-          <li>
-            <a href="/Orlando" className="link-destino">
-              Orlando
-            </a>
-          </li>
-          <li>
-            <a href="/Maldivas" className="link-destino">
-              Maldivas
-            </a>
-          </li>
-          <li>
-            <a href="/Italia" className="link-destino">
-              Itália
-            </a>
-          </li>
-        </ul>
-      </div>
-      <br />
-      <br />
-
-      <Footer />
-    </div>
+      
   );
 }
 
