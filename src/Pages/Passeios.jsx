@@ -4,11 +4,11 @@ import './Passeios.css';
 const Passeios = ({ passeios }) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
-  // UseEffect para mudar a imagem automaticamente a cada 4 segundos
+  // UseEffect para mudar a imagem automaticamente a cada 2 segundo
   useEffect(() => {
     const intervalId = setInterval(() => {
       setActiveIndex(prevIndex => (prevIndex + 1) % passeios[0].imagens.length);
-    }, 4000);
+    }, 2000);
 
     return () => clearInterval(intervalId); // Limpa o intervalo ao desmontar o componente
   }, [passeios]);
