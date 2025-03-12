@@ -50,7 +50,7 @@ function Home() {
       <br/>
       <div className="container">
       <div className="block">
-        <h4> ÍNDIA </h4>
+        <h6> ÍNDIA </h6>
         <p> A Índia é um país vasto e diverso, conhecido por sua rica história, cultura vibrante e tradições milenares. <br/>
         Desde os templos antigos e monumentos como o Taj Mahal até as cores intensas de suas festas, como o Holi, a Índia encanta com sua variedade. <br/>
         Com uma culinária única e uma espiritualidade marcante, é um destino fascinante para quem busca novas experiências. <br/>
@@ -59,7 +59,7 @@ function Home() {
       </div>
 
       <div className="block">
-        <h4> FINLÂNDIA </h4>
+        <h6> FINLÂNDIA </h6>
         <p> A Finlândia é um país nórdico conhecido por sua paisagem deslumbrante, composta por florestas, lagos e o fenômeno da aurora boreal. <br/>
         Com uma cultura que valoriza a educação, bem-estar e a sustentabilidade, é um dos lugares mais avançados em qualidade de vida. <br/>
         Helsinque, sua capital, combina modernidade com tradição. Além disso, a Finlândia é famosa por ser o lar do Papai Noel e por suas saunas únicas.</p>
@@ -67,7 +67,7 @@ function Home() {
       </div>
 
       <div className="block">
-        <h4> EGITO </h4>
+        <h6> EGITO </h6>
         <p> O Egito é um país localizado no nordeste da África, famoso por sua rica história e antigas civilizações. <br/>
         As pirâmides de Gizé e a Esfinge são alguns dos maiores marcos históricos do mundo. O rio Nilo, que corta o país, tem grande importância cultural e econômica. <br/>
         O Egito também é conhecido por sua religião e mitologia, além de ser um destino turístico popular. <br/>
