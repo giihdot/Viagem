@@ -36,7 +36,7 @@ const App = () => {
     {
       nome: "LONDRES - BIG BEN",
       preco: "R$ 2.699,99 ou € 429",
-      descricao: "O Big Ben é o nome do famoso sino da Torre do Relógio do Palácio de Westminster, em Londres. Inaugurado em 1859, tornou-se um símbolo da cidade e do Reino Unido, conhecido mundialmente pelo seu som marcante.",
+      descricao: "O Big Ben é o nome do famoso sino da Torre do Relógio do Palácio de Westminster, em Londres. Inaugurado em 1859, tornou-se um símbolo da cidade, conhecido mundialmente pelo seu som marcante.",
       imagens: [
         BigBen1,
         BigBen2
@@ -90,7 +90,7 @@ const App = () => {
       {
         nome: "MONTE FUJI - JAPÃO",
         preco: "R$ 3.641,99 ou € 579",
-        descricao: "O Monte Fuji é a montanha mais alta do Japão, com 3.776 m de altura. Considerado um símbolo, é um destino popular para escaladores e  turistas. Sua forma em cone perfeita e a presença imponente fazem dele um dos vulcões mais conhecidos do mundo, sendo um grande ícone.",
+        descricao: "O Monte Fuji é a montanha mais alta do Japão, com 3.776 m de altura. Considerado um símbolo, é um destino popular para escaladores e  turistas. Sua forma em cone perfeita e a presença imponente fazem dele um dos vulcões mais conhecidos do mundo, sendo um ícone.",
         imagens: [
           MonteFuji1,
           MonteFuji2

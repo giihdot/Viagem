@@ -7,8 +7,10 @@ import Coreia from "./Pages/Coreia_do_Sul";
 import Italia from "./Pages/Italia";
 import Passagem from "./Pages/Passagens";
 import Hospedagens from "./Pages/Hospedagens";
-import './App.css';
 import Ofertas from './Pages/Ofertas';
+import Passeios from './Pages/Passeio'
+import './App.css';
+
 
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
         
         <Route path="/" element={<Home />} />
         <Route path="/Passagens" element={<Passagem />} />
+        <Route path="/Passeios" element={<Passeios />} />
         <Route path="/Hospedagens" element={<Hospedagens />} />
         <Route path="/Ofertas" element={<Ofertas />} />
         <Route path="/Maldivas" element={<Maldivas />} />
