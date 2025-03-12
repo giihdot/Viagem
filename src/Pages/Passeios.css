@@ -1,0 +1,68 @@
+.passeios-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+
+  h1 {
+    text-align: center;
+    background-color: #483D8B;
+    text-shadow: 3px 5px 5px #FF6347;
+  }
+  
+  .passeio-item {
+    width: 320px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    text-align: center;
+    box-shadow: 5px 5px 5px #483D8B;
+  }
+  
+  .passeio-item h2 {
+    font-size: 1.5em;
+    color: #db3e2200;
+    text-align: center;
+  }
+  
+  .passeio-item .preco {
+    font-size: 1.2rem;
+    color: #9a0c0c;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .passeio-item p {
+    font-size: 1em;
+    color: #000000;
+  }
+  
+  .slider-container {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Ajuste a altura do slider */
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slide img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover; /* Faz as imagens ocuparem todo o espaço disponível */
+  }
+  
+  
