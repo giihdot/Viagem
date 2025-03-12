@@ -56,7 +56,7 @@ function Maldivas() {
         <br/>
         <ul>
           <li>
-            <a href="/Portugual" className="link-destino">
+            <a href="/Portugal" className="link-destino">
               Portugal
             </a>
           </li>
