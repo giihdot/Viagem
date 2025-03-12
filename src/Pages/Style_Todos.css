@@ -4,11 +4,21 @@
 }
 
 h1 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: #483D8B;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #483d8b;
   color: white;
   padding: 12px;
   font-size: 2.5em;
+}
+
+h4 {
+  background-color: #ff63478f;
+  color: #483d8b;
+  font-size: 2.5em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
 }
 
 .card {
@@ -43,7 +53,7 @@ h1 {
 .valor {
   font-size: 1.2em;
   font-weight: bold;
-  color: #FF6347;
+  color: #ff6347;
   margin: 10px 0;
 }
 
@@ -64,11 +74,8 @@ h1 {
 }
 
 p {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
-
-
-
 
 .links-container {
   text-align: center;
@@ -97,9 +104,8 @@ p {
   transition: 0.6s;
   background-color: #271b30;
   border-radius: 10px;
-
 }
 
 .link-destino:hover {
-  background-color: #FF6347;
+  background-color: #ff6347;
 }
