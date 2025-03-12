@@ -5,6 +5,7 @@ import Portugal from "./Pages/Portugal";
 import Orlando from "./Pages/Orlando";
 import Coreia from "./Pages/Coreia_do_Sul";
 import Italia from "./Pages/Italia";
+import Passagem from "./Pages/Passagens";
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/Passagens" element={<Passagem />} />        
         <Route path="/Maldivas" element={<Maldivas />} />
         <Route path="/Portugal" element={<Portugal />} />
         <Route path="/Orlando" element={<Orlando />} />

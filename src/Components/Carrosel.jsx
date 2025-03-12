@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Img1 from "../assets/1.jpg";
 import Img2 from "../assets/2.jpg";
 import Img3 from "../assets/3.jpg";
 import Img4 from "../assets/4.jpg";
@@ -7,7 +6,7 @@ import "./Carrosel.css";
 
 function Carrosel() {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const slides = [Img1, Img2, Img3, Img4]; // Array de imagens
+  const slides = [Img2, Img3, Img4]; // Array de imagens
   const totalSlides = slides.length;
 
   // Função para mover os slides

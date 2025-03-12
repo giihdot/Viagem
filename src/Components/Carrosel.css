@@ -2,7 +2,8 @@
 /* Contêiner principal do carrossel */
 .carousel {
     position: relative;
-    width: 75%;
+    top: 20px;
+    width: 80%;
     max-width: 100%; /* O carrossel vai ocupar 100% da largura disponível */
     margin: auto;
     overflow: hidden;
