@@ -102,7 +102,7 @@ const Footer = () => {
           Julia Piazzoli,
           Kamilly Barra.
           <br/>
-          As integrantes são alunas do técnico de Desenvolvimento de Sistemas do SENAI em Vinhedo-SP
+          As integrantes são alunas do técnico de Desenvolvimento de Sistemas do SENAI em Vinhedo-SP.
           </p>
         </div>
       </div>
